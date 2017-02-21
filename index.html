@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html ng-app="ajitkumar">
+
+<head>
+    <title>AC Rental Services | +91-7777-00-3737</title>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Ac Repair in Delhi, Ac Repair in Gurgaon And NCR for over 12 years, Alcon Engg. Solutions brings to the home appliances (of washing machine (Semi Automatic and Fully Automatic), Air Conditioner, Refrigrator and Refrigrator) repair and service sector a lifetime of experience in the perfection of our craft. Whether you need to repair or replace your home appliances, you can count on Alcon Engg. Solutions. We Provide a Complete Service for Reparing All Brands of Air-Conditioners & Refrigeration (L.G , Samsung, Whirlpool, Onida, Videocon, Carrier Hitachi Brands).">
+    <meta name="keywords" content="Service center, Repair, AC Repair, Microwave Repair, Refrigrator Repair, washing-machine Repair,  AC rent service, Microwave rent service, Refrigrator rent service, washing-machine rent service, Dwaka, New delhi, Gurgaon, india">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <!--Start Linking css both vendor and custom -->
+    <link rel='stylesheet' href='/stylesheets/vendor-css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/custom-css/style.css' />
+    <link rel='stylesheet' href='/stylesheets/vendor-css/slick.css' />
+    <link rel='stylesheet' href='/stylesheets/vendor-css/slick-theme.css' />
+    <link rel='stylesheet' href='/stylesheets/vendor-css/animsition.min.css' />
+    <link rel='stylesheet' href='/stylesheets/vendor-css/angular-toasty.min.css' />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,300,700' rel='stylesheet' type='text/css'>
+    <!--End Linking css both vendor and custom -->
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-route.min.js"></script>
+    <script src="/js/ngStorage.min.js"></script>
+    <script src="/js/angular-toasty.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="/app/app.js"></script>
+    <script type="text/javascript" src="/app/factory/app.factory.js"></script>
+    <script type="text/javascript" src="/app/directive/app.directive.js"></script>
+    <script type="text/javascript" src="/app/home/home.controller.js"></script>
+    <script type="text/javascript" src="/components/footer/footer.controller.js"></script>
+    <script type="text/javascript" src="/components/navbar/navbar.controller.js"></script>
+    <script type="text/javascript" src="/app/brand/brand.controller.js"></script>
+    <script type="text/javascript" src="/app/about-us/about.controller.js"></script>
+    <script type="text/javascript" src="/app/AMC/amc.controller.js"></script>
+    <script type="text/javascript" src="/app/contact-us/contact.controller.js"></script>
+</head>
+
+<body style="padding:0px" class="animsition">
+   
+    <!--Include header/navbar -->
+    <div data-ng-include="'/components/navbar/navbar.html'"></div>
+    <!--Template view in angularJS -->
+    <div ng-view=""></div>
+    <!--Common Loader -->
+    <div ng-show="waiting" id="overlay">
+        <span style="position: fixed;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);color:#009BFC;font-size:40px;"><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i></span>
+        <span style="position: fixed;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);color:#009BFC;font-size:40px;">Wait</span>
+    </div>
+    <!--Common notification indicator -->
+    <toasty class="toasty-position-bottom-right"></toasty>
+    <!-- Common back to top icon -->
+    <a href="#0" class="cd-top" title="Go to top">Top</a>
+    <!--Include Footer -->
+    <div data-ng-include="'/components/footer/footer.html'"></div>
+    <!--Include JS files -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Navigation -->
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="/js/menumaker.js"></script>
+    <script type="text/javascript" src="/js/scrollForever.js"></script>
+    <!-- animsition -->
+    <script type="text/javascript" src="/js/animsition.js"></script>
+    <script type="text/javascript" src="/js/animsition-script.js"></script>
+    <!-- Sticky header -->
+    <script type="text/javascript" src="/js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="/js/sticky-header.js"></script>
+    <!-- Slider -->
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <script type="text/javascript" src="/js/testimonial.js"></script>
+    <!-- Back to top script -->
+    <script type="text/javascript" src="/js/back-to-top.js"></script>
+    <script type="text/javascript" src="/js/jquery.flexisel.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-91623614-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+    $(function() {
+        // var time1 = new Date;
+        $("#a1").scrollForever();
+        $("#b1").scrollForever({
+            dir: "top",
+            container: ".b-con",
+            inner: "div"
+        });
+        $("#a2").scrollForever({
+            continuous: false,
+            num: 2
+        });
+        $("#b2").scrollForever({
+            dir: "top",
+            container: ".b-con",
+            inner: "div",
+            continuous: false
+        });
+        $("#c1").scrollForever({
+            continuous: false
+        });
+        $("#d1").scrollForever({
+            continuous: false,
+            dir: 'top'
+        });
+        // console.log("耗时：" + (new Date - time1) + " 毫秒");
+    });
+    </script>
+    <script type="text/javascript">
+    $("#navigation").menumaker({
+        title: "Menu",
+        format: "multitoggle"
+    });
+    </script>
+</body>
+
+</html>

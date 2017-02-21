@@ -1,0 +1,52 @@
+{
+  "name": "acrentalservice",
+  "version": "1.0.0",
+  "description": "We belive in customer satisfaction",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Service",
+    "center",
+    "Repair",
+    "AC",
+    "Repair",
+    "Microwave",
+    "Repair",
+    "Refrigrator",
+    "Repair",
+    "washing-machine",
+    "Repair",
+    "AC",
+    "rent",
+    "service",
+    "Microwave",
+    "rent",
+    "service",
+    "Refrigrator",
+    "rent",
+    "service",
+    "washing-machine",
+    "rent",
+    "service",
+    "Dwaka",
+    "New",
+    "delhi",
+    "Gurgaon",
+    "india"
+  ],
+  "author": "Ajit Kumar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a2-square/alcon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a2-square/alcon/issues"
+  },
+  "homepage": "https://github.com/a2-square/alcon#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
