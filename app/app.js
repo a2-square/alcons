@@ -34,7 +34,7 @@ var app = angular.module('ajitkumar', [
             redirectTo: '/'
         });
 
-        $locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(false);
         //$httpProvider.interceptors.push('authInterceptor');
     })
 
