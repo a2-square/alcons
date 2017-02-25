@@ -38,7 +38,7 @@ var app = angular.module('ajitkumar', [
         //$httpProvider.interceptors.push('authInterceptor');
     })
 
-.constant('apiDomain', 'dev')
+.constant('api', 'http://localhost:7000/api')
 
 .factory('authInterceptor', function($rootScope, $q, $location) {
     return {
