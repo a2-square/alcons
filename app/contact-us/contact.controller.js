@@ -4,15 +4,16 @@ app.controller('contactCtrl', ['$scope', '$rootScope', '$location', '$q', '$time
     function($scope, $rootScope, $location, $q, $timeout, toasty, query) {
 
         $scope.user = {
-            name: "",
-            email: "",
-            contact: "",
+            name: "Ajit",
+            email: "er.ajitkumar90@gmail.com",
+            contact: "9015595883",
             subject: "",
-            message: ""
+            message: "Please fillout gas in my AC as soon as possible"
         }
 
         $scope.sendQuery = function(valid, data) {
-            if (valid=="development") {
+            console.log(valid, "data>>>>>", data)
+            if (valid) {
             $rootScope.waiting = true;
                 query.send(data).then(function(response) {
                 	 $rootScope.waiting = false;
@@ -32,7 +33,7 @@ app.controller('contactCtrl', ['$scope', '$rootScope', '$location', '$q', '$time
             } else {
                 toasty.error({
                     title: 'Error! Message',
-                    msg: "This is under construction"
+                    msg: "Please fill all mandatory(*) fields"
                 });
             }
         }
