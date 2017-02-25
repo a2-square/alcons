@@ -12,7 +12,6 @@ app.controller('contactCtrl', ['$scope', '$rootScope', '$location', '$q', '$time
         }
 
         $scope.sendQuery = function(valid, data) {
-            console.log(valid, "data>>>>>", data)
             if (valid=="development") {
             $rootScope.waiting = true;
                 query.send(data).then(function(response) {
