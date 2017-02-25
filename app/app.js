@@ -38,7 +38,7 @@ var app = angular.module('ajitkumar', [
         //$httpProvider.interceptors.push('authInterceptor');
     })
 
-.constant('api', 'http://localhost:7000/api')
+.constant('api', 'https://alcon.herokuapp.com/api')
 
 .factory('authInterceptor', function($rootScope, $q, $location) {
     return {
