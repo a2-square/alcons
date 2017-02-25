@@ -4,11 +4,11 @@ app.controller('contactCtrl', ['$scope', '$rootScope', '$location', '$q', '$time
     function($scope, $rootScope, $location, $q, $timeout, toasty, query) {
 
         $scope.user = {
-            name: "Ajit",
-            email: "er.ajitkumar90@gmail.com",
-            contact: "9015595883",
+            name: "",
+            email: "",
+            contact: "",
             subject: "",
-            message: "Please fillout gas in my AC as soon as possible"
+            message: ""
         }
 
         $scope.sendQuery = function(valid, data) {
