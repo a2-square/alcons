@@ -1204,3 +1204,8 @@ ul{list-style: none;}
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.scroll_ul {
+    max-height: 232px;
+    overflow-y: scroll;
+}
