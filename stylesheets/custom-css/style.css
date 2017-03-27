@@ -1219,3 +1219,36 @@ ul{list-style: none;}
     max-height: 232px;
     overflow-y: scroll;
 }
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 10px 10px;
+    padding-bottom: 18px;
+    border: transparent;
+    color: #fff;
+    font-size: 13px;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 500;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background:transparent;color:#fff;
+    
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background:transparent;
+}
+.dropdown-menu {
+    background:#446a73;padding:0px;border:0px none;}
+.dropdown-menu > li > a {
+    background-color: #446a73;
+padding: 15px 20px;
+color: white;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(253,184,17);
+}
