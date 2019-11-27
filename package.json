@@ -47,6 +47,6 @@
   },
   "homepage": "https://github.com/a2-square/alcon#readme",
   "dependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.12.0"
   }
 }
